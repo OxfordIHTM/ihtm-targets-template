@@ -1,6 +1,6 @@
 ################################################################################
 #
-# Seychelles General Targets Workflow
+# General Targets Workflow
 #
 ################################################################################
 
@@ -47,11 +47,4 @@ deploy_targets <- tar_plan(
 
 
 ## List targets
-list(
-  data_targets,
-  processing_targets,
-  analysis_targets,
-  output_targets,
-  report_targets,
-  deploy_targets
-)
+all_targets()

@@ -12,11 +12,11 @@ on:
 jobs:
   test-targets-workflow:
     runs-on: ubuntu-latest
-    container: rocker/tidyverse:4.3.1
+    container: rocker/tidyverse:4.3.3
     env:
       GIT_CRYPT_KEY64: ${{ secrets.GIT_CRYPT_KEY64 }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       
       - name: Install system dependencies
         run: |
