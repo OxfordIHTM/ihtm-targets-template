@@ -40,15 +40,7 @@ The project repository is structured as follows:
     workflow.
 
   - `data-raw/` contains raw datasets, usually either downloaded from
-    source or added manually, that are used in the project. This
-    directory is empty given that the raw datasets used in this project
-    are restricted and are only distributed to eligible members of the
-    project. This directory is kept here to maintain reproducibility of
-    project directory structure and ensure that the workflow runs as
-    expected. Those who are collaborating on this project and who have
-    permissions to use the raw datasets should include their copies of
-    the raw dataset into this directory in their local versions of this
-    repository.
+    source or added manually, that are used in the project.
 
   - `outputs/` contains compiled reports and figures produced by the
     workflow.
@@ -56,8 +48,8 @@ The project repository is structured as follows:
   - `R/` contains functions developed/created specifically for use in
     this workflow.
 
-  - `reports/` contains literate code for R Markdown reports rendered in
-    the workflow.
+  - `reports/` contains literate code for R Markdown and/or Quarto
+    reports rendered in the workflow.
 
   - `renv/` contains `renv` package specific files and directories used
     by the package for maintaining R package dependencies within the
@@ -86,7 +78,7 @@ The project repository is structured as follows:
 
 ### R package dependencies
 
-This project was built using `R 4.4.0`. This project uses the `renv`
+This project was built using `R 4.4.2`. This project uses the `renv`
 framework to record R package dependencies and versions. Packages and
 versions used are recorded in `renv.lock` and code used to manage
 dependencies is in `renv/` and other files in the root project
