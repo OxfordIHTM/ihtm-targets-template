@@ -1,8 +1,7 @@
-################################################################################
-#
-# Load packages required for standard workflows
-#
-################################################################################
+# Load package dependencies ----------------------------------------------------
+
+
+## Load packages required for standard workflows ----
 
 library(targets)
 library(tarchetypes)

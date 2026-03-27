@@ -6,22 +6,20 @@ on:
   pull_request:
     branches: [main, master]
   workflow_dispatch:
-    # branches:
-    #   - '*'
 
 jobs:
   test-targets-workflow:
     runs-on: ubuntu-latest
-    container: rocker/tidyverse:4.5.2
+    container: rocker/tidyverse:4.5.3
     env:
       GIT_CRYPT_KEY64: ${{ secrets.GIT_CRYPT_KEY64 }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       
       - name: Install system dependencies
         run: |
           apt-get update && apt-get install -y --no-install-recommends \
-          libxt6 libglpk-dev
+          libxt6 libglpk-dev libuv1-dev cmake
           
       - name: Trust git repo
         run: |
