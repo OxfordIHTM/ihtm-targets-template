@@ -4,7 +4,6 @@
 # A template R workflow for general data analysis
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 This repository is a template for a
@@ -78,7 +77,7 @@ The project repository is structured as follows:
 
 ### R package dependencies
 
-This project was built using `R 4.5.3`. This project uses the `renv`
+This project was built using `R 4.6.0`. This project uses the `renv`
 framework to record R package dependencies and versions. Packages and
 versions used are recorded in `renv.lock` and code used to manage
 dependencies is in `renv/` and other files in the root project
