@@ -20,7 +20,7 @@ This repository is a template for a [`docker`](https://www.docker.com/get-starte
 
 ## About the Project
 
-
+[A DESCRIPTION OF THE PROJECT GOES HERE]
 
 ## Repository Structure
 
@@ -98,4 +98,15 @@ cat(
 )
 ```
 
+## Authors
+
+[LIST OF AUTHORS GOES HERE]
+
+## License
+
+[LICENSE INFORMATION GOES HERE]
+
+## Citation
+
+[CITATION INFORMATION GOES HERE]
 

@@ -15,6 +15,8 @@ This repository is a template for a
 
 ## About the Project
 
+\[A DESCRIPTION OF THE PROJECT GOES HERE\]
+
 ## Repository Structure
 
 The project repository is structured as follows:
@@ -106,3 +108,15 @@ The current workflow has the following steps:
 
 ``` mermaid
 ```
+
+## Authors
+
+\[LIST OF AUTHORS GOES HERE\]
+
+## License
+
+\[LICENSE INFORMATION GOES HERE\]
+
+## Citation
+
+\[CITATION INFORMATION GOES HERE\]
