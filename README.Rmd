@@ -33,8 +33,8 @@ ihtm-targets-template
     |-- data-raw/
     |-- data/
     |-- outputs/
-    |-- renv
-    |-- reports
+    |-- renv/
+    |-- reports/
     |-- .Rprofile
     |-- _targets.R
     |-- packages.R
@@ -67,7 +67,7 @@ ihtm-targets-template
 
 ### R version
 
-This project is built using `R 4.6.1`. To manage R versions, it is recommended to use [`rig`](https://github.com/r-lib/rig) - an R installation manager - to be able to install multiple versions of R and switch between them as needed.
+This project is built using `R 4.6.2`. To manage R versions, it is recommended to use [`rig`](https://github.com/r-lib/rig) - an R installation manager - to be able to install multiple versions of R and switch between them as needed.
 
 ### R package dependencies
 

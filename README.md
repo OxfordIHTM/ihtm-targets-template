@@ -27,8 +27,8 @@ The project repository is structured as follows:
         |-- data-raw/
         |-- data/
         |-- outputs/
-        |-- renv
-        |-- reports
+        |-- renv/
+        |-- reports/
         |-- .Rprofile
         |-- _targets.R
         |-- packages.R
@@ -80,7 +80,7 @@ The project repository is structured as follows:
 
 ### R version
 
-This project is built using `R 4.6.1`. To manage R versions, it is
+This project is built using `R 4.6.2`. To manage R versions, it is
 recommended to use [`rig`](https://github.com/r-lib/rig) - an R
 installation manager - to be able to install multiple versions of R and
 switch between them as needed.
